@@ -1,11 +1,9 @@
 import React from 'react';
-import Luogo from 'luogo';
-import { truncate } from 'lodash-es';
+// import Luogo from 'luogo';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { storiesOf } from '@storybook/react';
 
-const stories = storiesOf('Luogo', module);
-
-stories.add('Default', (
-    <Luogo />
-));
+const stories = storiesOf('Luogo', module)
+    .add('Default', () => (
+        <div>test</div>
+    ));

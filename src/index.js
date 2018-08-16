@@ -1,3 +1,3 @@
 import './Luogo/Luogo.scss';
 
-export default from './Luogo';
+export default './Luogo';

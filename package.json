@@ -4,6 +4,7 @@
   "description": "React components for location search",
   "main": "./dist/luogo.min.js",
   "scripts": {
+    "build": "webpack --mode production --config ./.config/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 9001"
   },
@@ -35,7 +36,8 @@
     "react-dom": "^16.4.2"
   },
   "devDependencies": {
-    "@storybook/react": "^3.4.10",
+    "@storybook/cli": "^4.0.0-alpha.16",
+    "@storybook/react": "^4.0.0-alpha.16",
     "autoprefixer": "^9.1.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
@@ -52,6 +54,7 @@
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.3",
     "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
   }
